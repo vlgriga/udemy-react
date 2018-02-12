@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('' , (req,res) => {
-	res.send("Hello world");
+	res.send("Vladislav besr React & Node programmer");
 });
 
 app.set('PORT', process.env.PORT || 3000);
