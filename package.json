@@ -1,0 +1,26 @@
+{
+  "name": "udemy-react",
+  "version": "1.0.0",
+  "description": "Udemy FullStack course",
+  "main": "index.js",
+  "engines" : {
+    "node" : "9.5.0",
+    "npm" : "5.6.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlgriga/udemy-react.git"
+  },
+  "author": "Vladislav Griga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlgriga/udemy-react/issues"
+  },
+  "homepage": "https://github.com/vlgriga/udemy-react#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
