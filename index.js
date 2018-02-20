@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose'); 
 const authRoutes = require('./routes/authRoutes.js');
+const billingRoutes = require('./routes/billingRoutes.js');
 const cookieSession = require('cookie-session');
 const passport = require('passport'); 
 const keys = require('./config/keys.js');
@@ -24,7 +25,8 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-authRoutes(app); 
+authRoutes(app);
+billingRoutes(app);
 
 
 app.set('PORT', process.env.PORT || 3000);
